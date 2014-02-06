@@ -3,6 +3,7 @@ layout: post
 title:  "MEANR Full Stack Intro"
 date:   2014-01-09 11:08:02
 categories: mongodb express angularjs node chef devops deployment capistrano
+tags: MEAN MEANR Stack
 ---
 
 MongoDB, Express, AngularJS, Node.js and Redis - MEANR

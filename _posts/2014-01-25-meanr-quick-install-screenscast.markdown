@@ -2,7 +2,8 @@
 layout: post
 title:  "MEANR Quick Install Screencast"
 date:   2014-01-25 11:08:02
-categories: mongodb express angularjs node chef devops deployment capistrano
+categories: mongodb express angularjs node redis
+tags: MEAN MEANR Stack
 ---
 
 MongoDB, Express, AngularJS, Node.js and Redis - MEANR

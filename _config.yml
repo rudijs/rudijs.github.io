@@ -1,3 +1,8 @@
-name: rudijs.github.io
-markdown: redcarpet
-pygments: true
+root: /
+permalink: /:year-:month/:title/
+markdown: rdiscount
+pygments: false
+paginate: 5
+
+title: Rudi Starcevic's blog
+
