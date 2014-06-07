@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zurb Foundation Angularjs Directive"
+title:  "Initialize Zurb Foundation 5 in an AngularJS Directive with Tests"
 date:   2014-06-07 12:00:00
 categories: Foundation AngularJS Directives
 tags: Foundation AngularJS Directives
