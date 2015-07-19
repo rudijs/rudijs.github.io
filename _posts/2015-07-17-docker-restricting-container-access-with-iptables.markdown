@@ -54,8 +54,18 @@ if [ ! -x /usr/bin/docker ]; then
     exit
 fi
 
-# Create a PRE_DOCKER table
-iptables -N PRE_DOCKER
+# Check if the PRE_DOCKER chain exists, if it does there's an existing reference to it.
+iptables -C FORWARD -o docker0 -j PRE_DOCKER
+
+if [ $? -eq 0 ]; then
+    # Remove reference (will be re-added again later in this script)
+    iptables -D FORWARD -o docker0 -j PRE_DOCKER
+    # Flush all existing rules
+    iptables -F PRE_DOCKER
+else
+    # Create the PRE_DOCKER chain
+    iptables -N PRE_DOCKER
+fi
 
 # Default action
 iptables -I PRE_DOCKER -j DROP
