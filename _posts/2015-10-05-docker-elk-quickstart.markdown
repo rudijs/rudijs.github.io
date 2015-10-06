@@ -192,7 +192,7 @@ You should see the Kibana UI.
 <img src="/images/docker-elk-quickstart/kibana1.png" width="800"/>
 </a>
 
-Click green *Create* button create the Kibana index, then click *Discover* from the main top menu to load up the log entries from Elasticsearch.
+Click green *Create* button to create the Kibana index, then click *Discover* from the main top menu to load up the log entries from Elasticsearch.
 
 <a href="/images/docker-elk-quickstart/kibana2.jpg" target="_blank">
 <img src="/images/docker-elk-quickstart/kibana2.jpg" width="800"/>
