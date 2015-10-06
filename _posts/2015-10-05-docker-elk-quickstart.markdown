@@ -22,6 +22,8 @@ In just a few commands, use docker to get an ELK stack up and running.
 
 ## Method
 
+The following method has been tested, and is being used, with Linux Ubuntu 14:04.
+
 **Installation**
 
 **Install Docker**
