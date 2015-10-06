@@ -143,7 +143,7 @@ output {
 - `mkdir -p var/log`
 - Start our logstash docker container. It will watch the `test.log` file from the `var/log` directory we just created.
 - `sudo docker run -d --name logstash -v $PWD/logstash/conf.d:/etc/logstash/conf.d:ro -v $PWD/var/log:/host/var/log --net host logstash logstash -f /etc/logstash/conf.d --debug`
-- We've used the `--debug` flag so we can check logstash's start up processes and watch of any errors:
+- We've used the `--debug` flag so we can check logstash's start up processes and watch for any errors:
 - `sudo docker logs -f logstash`
 
 To test your Logstash to Elasticsearch installation, run the following command in a new shell:
@@ -219,9 +219,11 @@ In my experience, once you know how to use and are comfortable with Docker, buil
 
 The steps described above are solid but for me personally I'd tweak them for production use.
 
-Docker has other features you can use like linking containers, so you don't expose ports.
+For example:
 
-Using the '--net host' flag might also not be the best option for production.
+1. Docker has other features you can use like linking containers, so you don't expose ports.
+2. Using the '--net host' flag might also not be the best option for production.
+3. Pin the docker images you are using to a specific version eg: `sudo docker pull logstash:1.5.2`
 
 Anyways I hope this post gets you up and running quickly and painlessly - ready to explore more of the power of the ELK stack.
 
