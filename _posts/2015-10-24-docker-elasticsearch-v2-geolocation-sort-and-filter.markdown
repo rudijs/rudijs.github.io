@@ -21,6 +21,7 @@ You can type them out or copy and paste them directly.
 
 Clone the code repository and cd into it:
 
+- [https://github.com/rudijs/elasticsearch-geolocation-demo](https://github.com/rudijs/elasticsearch-geolocation-demo)
 - `git clone https://github.com/rudijs/elasticsearch-geolocation-demo.git`
 - `cd elasticsearch-geolocation-demo`
 
