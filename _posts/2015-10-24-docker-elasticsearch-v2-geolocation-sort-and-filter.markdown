@@ -8,7 +8,14 @@ tags: Docker Elasticsearch-v2 Geolocation Sort Filter
 
 ## Overview
 
-In this post we'll demonstrate two Elasticsearch v2.0.0 Geolocation features using the official Docker image with Linux Ubuntu 14.04:
+Now that Elasticsearch v2.0.0 is out
+lets take a quick look at how
+quick and easy it is
+to explore it's features using Docker.
+
+This post will demonstrate
+two Elasticsearch Geolocation features
+using the official Docker image with Linux Ubuntu 14.04:
 
 1. Sorting by Distance
 2. Geo Distance Filter
