@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS Serverless API End to End testing using Jest"
+title: "AWS Typescript Serverless Framework API End to End testing using Jest"
 date: 2020-04-15 12:00:00
 categories: serverless API typescript end-to-end testing jest
 tags: Serverless API Typescript End-to-End Testing Jest
